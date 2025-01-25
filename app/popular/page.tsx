@@ -1,12 +1,12 @@
 import { NewsFeed } from "@/components/news-feed"
 import { Sidebar } from "@/components/sidebar"
 
-export default function HomePage() {
+export default function PopularPage() {
   return (
     <div className="container px-4 py-6 md:py-10">
       <div className="lg:flex lg:gap-8">
         <div className="lg:flex-1">
-          <h1 className="text-3xl font-bold mb-6">Latest News</h1>
+          <h1 className="text-3xl font-bold mb-6">Popular News</h1>
           <NewsFeed />
         </div>
         <div className="hidden lg:block lg:w-[300px]">
